@@ -25,7 +25,7 @@ function CSR({ list, loading }) {
       <h3 style={{ textAlign: 'left' }}>List</h3>
       {list.listOfItems.length > 0 ? (
         <ul style={{ textAlign: 'left' }}>
-          {list.listOfItems.map(i => <li key={i.name}>{i.name}</li>)}
+          {list.listOfItems.map(i => <a href="/detail"><li key={i.name}>{i.name}</li></a>)}
         </ul>
       ) : null}
     </div>
