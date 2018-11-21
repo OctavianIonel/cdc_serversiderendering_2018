@@ -3,5 +3,5 @@
 
 ## Run locally
 
-- Inside the `ssr` folder, run `yarn` to add packages
+- Inside the main folder, run `npm install` to add packages
 - Start the app with `yarn dev`
